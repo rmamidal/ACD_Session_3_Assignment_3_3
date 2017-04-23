@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>This is the Title of the page</title>
+<title> Html form and apply styles | Session 3 Assignment 3.3</title>
 </head>
 
 <body>
-<h1>This is body of the page</h1>
-<p> Anything within the body of a web page is displayed in the main browser window</p>
+<section>
+<p>Step1: Your details</p>
+<div><label><span>Name </span><input type='text' name='txtname' placeholder='First and last name'/></label></div>
+<div><label><span>Email </span><input type='email' name='txtemail' placeholder='example@domain.com'/></label></div>
+<div><label><span>Phone </span><input type='text' name='txtphone' placeholder='+919090909090'/></label>
+</section>
+<section>
+<p>Step2: Delivery address</p>
+<div><label><span>Address</span><textarea name='taaddress'></textarea></label>
+<div><label><span>Post code</span><input type='text' name='txtpostcode'/></label>
+<div><label><span>Country</span><input type='text' name='txtcountry'/></label>
+</section>
+<section>
+<p>Step3: Card details</p>
+<div><label><span>Card type
+<input type='radio' name='ctype'/> Visa
+<input type='radio' name='ctype'/> Amex
+<input type='radio' name='ctype'/> Mastercard
 
+
+</label></div>
+<div><label><span>Card number</span><input type='text' name='txtcardno'/></label>
+<div><label><span>Security code</span><input type='text' name='txtsecurity'></label>
+<div><label><span> Name on card</span><input type='text' name='txtname' placeholder='Rajendhar Mamidala'></label>
+</section>
+
+<input type='submit' value='Buy It' name='btnsubmit'/>
 </body>
 </html>
