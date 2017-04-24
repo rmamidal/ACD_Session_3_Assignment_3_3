@@ -2,9 +2,11 @@
 <html>
 <head>
 <title> Html form and apply styles | Session 3 Assignment 3.3</title>
+<link rel='stylesheet' href='style.css'/>
 </head>
 
 <body>
+<div class='wrapper'>
 <section>
 <p>Step1: Your details</p>
 <div><label><span>Name </span><input type='text' name='txtname' placeholder='First and last name'/></label></div>
@@ -19,18 +21,16 @@
 </section>
 <section>
 <p>Step3: Card details</p>
-<div><label><span>Card type
+<div><label><span>Card type</span>
 <input type='radio' name='ctype'/> Visa
 <input type='radio' name='ctype'/> Amex
 <input type='radio' name='ctype'/> Mastercard
-
-
 </label></div>
 <div><label><span>Card number</span><input type='text' name='txtcardno'/></label>
 <div><label><span>Security code</span><input type='text' name='txtsecurity'></label>
 <div><label><span> Name on card</span><input type='text' name='txtname' placeholder='Rajendhar Mamidala'></label>
 </section>
-
-<input type='submit' value='Buy It' name='btnsubmit'/>
+<section class='center-ele'><input type='submit' value='Buy It!' name='btnsubmit' class='submit'/></section>
+</div>
 </body>
 </html>
